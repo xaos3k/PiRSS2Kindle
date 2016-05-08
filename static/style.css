@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+standard {
+    color: white;
+    font-size: 100%;
+}
+
+time {
+    font-size: 350%;
+}
+
+div.box {
+    position: relative;
+    height: 97vh;
+}
+div.show_time {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

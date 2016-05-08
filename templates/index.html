@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Testing</title>
+    <!--link rel="stylesheet" type="text/css" href="{{ static_url("style.css") }}"-->
+  </head>
+
+  <body>
+
+<!--    needed:<br />
+    tornado<br />
+    feedparser<br />
+    sqlite3<br />
+    sendmail<br /><br /-->
+    <form action="{{ request.path }}" method="post">
+      <br />
+      Add feed: <input type="text" name="rss"><input type="submit" value="Submit" name="rssb"><br />
+      {% for entry in RSSlist %}
+        {{ entry }}<br />
+      {% end %}
+      <br /><br />
+      Kindle Mail: <input type="text" name="kindlemail" value=""><input type="submit" value="Update" name="kindlemailb"><br />(Current: {{ kindlemail }})<br /><br />
+    </form>
+  </body>
+</html>
