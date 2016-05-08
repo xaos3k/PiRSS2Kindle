@@ -1,4 +1,4 @@
-This tool lets you fetch and send RSS feeds via your Kindle email address directly to your Kindle as a book. It is currently developed on a RasPi3 and is intended to run on similiar hardware (especially RasPi2 and 3).
+This tool lets you fetch and send RSS feeds via your Kindle email address directly to your Kindle as a book. It is developed on a RasPi3 and is intended to run on similiar hardware (especially RasPi2 and 3).
 
 Currently the code is pretty ugly, but it is functional and does the job. I will clean up and prettify the code base and the created Kindle book in the future.
 
