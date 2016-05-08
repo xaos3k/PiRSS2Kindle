@@ -6,16 +6,17 @@ You can set up a cron job, to get feeds on a regular basis. Just set up your fee
 
 Currently your Kindle mail address can be set up via the WebUI, but is not used at this point and has to be set up manually in PiRSS2Kindle.py.
 
-To get this thisng up and running you need the following python packages installed (pip install [package]):
+To get this thing up and running you need the following python packages installed (pip install [package]):
 
-sqlite3
-tornado
-feedparser
+sqlite3<br />
+tornado<br />
+feedparser<br />
 time (if it is not installed)
 
 Also you will need the following packages installed on your system:
-ssmtp
-mailutils
+
+ssmtp<br />
+mailutils<br />
 sqlite3 (might not be needed, but I installed it and am too lazy to test without this package)
 
 You'll then have to set up ssmtp as described here: https://wiki.archlinux.org/index.php/SSMTP
