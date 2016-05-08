@@ -2,9 +2,9 @@ This tool lets you fetch and send RSS feeds via your Kindle email address direct
 
 Currently the code is pretty ugly, but it is functional and does the job. I will clean up and prettify the code base and the created Kindle book in the future.
 
-You can set up a cron job, to get feeds on a regular basis. Just set up your feeds by running app.py and heading to [ip]:8000 
+You can set up a cron job to get feeds on a regular basis. Just set up your feeds by running app.py and heading to [ip]:8000 
 
-Currently your Kindle mail address can be set up via the WebUI, but is not used at this point and has to be set up manually in PiRSS2Kindle.py.
+Currently your Kindle mail address (https://www.amazon.com/mn/dcw/myx.html/#/home/devices/1) can be set up via the WebUI, but is not used at this point and has to be set up manually in PiRSS2Kindle.py.
 
 To get this thing up and running you need the following python packages installed (pip install [package]):
 
