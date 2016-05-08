@@ -48,7 +48,7 @@ def create():
                 file.write("<b>" + post.title.encode("utf-8") + "</b><br />" + post.summary.encode("utf-8") + "<br /><br />")
             file.write("</div><mbp:pagebreak />")
     print "writing news to file..."
-    file.write("</body></html>")
+    file.write("created by (<a href=\"https://github.com/xaos3k/PiRSS2Kindle\">PiRSS2Kindle</a>)</body></html>")
     file.close()
 create()
 
