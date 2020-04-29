@@ -12,7 +12,7 @@ filename = today + ".html"
 def create():
     print "getting news..."
     file = open(filename,'a')
-    file.write("<html><head><meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"><title>Testing</title></head><body>")
+    file.write("<html><head><meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"><title>Test</title></head><body>")
     DBName = 'PiRSS2Kindle.sqlite'
     con = sqlite3.connect(DBName)
     with con:
